@@ -22,7 +22,7 @@ const Header = styled.header`
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background: #ffffff; /* header background */
+  background: #c3e1d0; /* header background */
   border-bottom: 1px solid #cccccc; /* header separator */
   padding: 0 18px;
 `;
@@ -37,7 +37,7 @@ const VerticallyCenterChildren = styled.div`
 
 const Title = styled.h1`
   font-weight: 300;
-  color: #000000; /* title text color */
+  color: #f9bf2f; /* title text color */
 `;
 
 const SubTitle = styled.h2`
@@ -48,7 +48,7 @@ const SubTitle = styled.h2`
 const App = (): JSX.Element => (
   <Container>
     <Header>
-      <Title>KWAK Tetris/Title>
+      <Title>KWAK Tetris</Title>
       <SubTitle>VibeOS edition</SubTitle>
       <TypedShell>Tu tududu tududu tu tu tut kwak kwak</TypedShell>
     </Header>
