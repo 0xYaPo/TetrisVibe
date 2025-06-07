@@ -1,4 +1,4 @@
-# react-tetris
+# react-tetris-kwakified
 
 ![Build Status](https://github.com/brandly/react-tetris/workflows/.github/workflows/test.yml/badge.svg)
 
