@@ -67,20 +67,20 @@ const DpadMidRow = styled(DpadRow)`
 const LeftRight = styled.button`
   width: ${dpadSize}px;
   height: ${dpadSize}px;
-  border: 2px solid #cccccc; /* left/right button border */
+  border: 2px solid #ed6a32; /* left/right button border */
 `;
 
 const UpDown = styled.button`
   width: ${dpadSize}px;
   height: ${dpadSize}px;
-  border: 2px solid #cccccc; /* up/down button border */
+  border: 2px solid #ed6a32; /* up/down button border */
 `;
 
 const RoundBtn = styled.button`
   width: 48px;
   height: 48px;
   border-radius: 24px;
-  border: 2px solid #cccccc; /* round button border */
+  border: 2px solid #f9bf2f; /* round button border */
 `;
 
 const Row = styled.div`
