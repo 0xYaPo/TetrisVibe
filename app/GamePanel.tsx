@@ -13,7 +13,7 @@ const Score = styled.div`
   position: relative;
   font-family: monospace;
   font-size: 18px;
-  color: #888;
+  color: #777777; /* score label */
 `;
 
 const LeftHalf = styled.div`
@@ -47,20 +47,20 @@ const Popup = styled.div`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: #fff;
+  background: #f9f9f9; /* popup background */
   padding: 12px 24px;
   border-radius: 4px;
   text-align: center;
-  box-shadow: 2px 7px 18px 3px #d2d2d2;
+  box-shadow: 2px 7px 18px 3px #999999; /* popup shadow */
 `;
 
 const Alert = styled.h2`
-  color: #666;
+  color: #333333; /* popup title */
   margin: 0;
 `;
 
 const Button = styled.button`
-  border: 1px solid #666;
+  border: 1px solid #333333; /* popup button border */
   background: none;
   margin-top: 12px;
   border-radius: 4px;

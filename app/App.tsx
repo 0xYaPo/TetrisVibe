@@ -22,8 +22,8 @@ const Header = styled.header`
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background: #fafafa;
-  border-bottom: 1px solid #eaeaea;
+  background: #ffffff; /* header background */
+  border-bottom: 1px solid #cccccc; /* header separator */
   padding: 0 18px;
 `;
 
@@ -37,7 +37,7 @@ const VerticallyCenterChildren = styled.div`
 
 const Title = styled.h1`
   font-weight: 300;
-  color: #000;
+  color: #000000; /* title text color */
 `;
 
 const SubTitle = styled.h2`

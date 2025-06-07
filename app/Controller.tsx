@@ -19,7 +19,7 @@ export default function Controller({ controller }: Props): JSX.Element {
       <div
         style={{
           padding: '18px',
-          border: '1px solid #DDD',
+          border: '1px solid #cccccc', /* controller outer border */
           borderRadius: '72px'
         }}
       >
@@ -67,20 +67,20 @@ const DpadMidRow = styled(DpadRow)`
 const LeftRight = styled.button`
   width: ${dpadSize}px;
   height: ${dpadSize}px;
-  border: 2px solid #ddd;
+  border: 2px solid #cccccc; /* left/right button border */
 `;
 
 const UpDown = styled.button`
   width: ${dpadSize}px;
   height: ${dpadSize}px;
-  border: 2px solid #ddd;
+  border: 2px solid #cccccc; /* up/down button border */
 `;
 
 const RoundBtn = styled.button`
   width: 48px;
   height: 48px;
   border-radius: 24px;
-  border: 2px solid #ddd;
+  border: 2px solid #cccccc; /* round button border */
 `;
 
 const Row = styled.div`

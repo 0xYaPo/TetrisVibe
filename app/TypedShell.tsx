@@ -9,8 +9,8 @@ const Shell = styled.div`
     'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier,
     monospace;
   border-radius: 5px;
-  background: #fff;
-  border: 1px solid #eaeaea;
+  background: #ffffff; /* terminal background */
+  border: 1px solid #cccccc; /* terminal border */
   padding: 12px 18px;
 `;
 
